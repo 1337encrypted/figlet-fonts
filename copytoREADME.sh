@@ -1,6 +1,6 @@
 var=$(ls . | sed '/-/d' | sed 's/\..*$//g') &&
 	for i in ${var[@]}; do
-		echo -e "\n\n### $i";
+		echo "\n\n### $i";
 		echo "\`\`\`";
-		figlet -ctf $i Encrypted;
+		figlet -cf $i Encrypted;
 		echo "\`\`\`"; done
