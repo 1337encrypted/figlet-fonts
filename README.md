@@ -1,4 +1,7 @@
-
+- Fonts location in linux is `/usr/share/figlet/fonts`
+- Fonts location on mac is `/opt/homebrew/Cellar/figlet/*/share/figlet/fonts/`
+- To list all fonts there is `figlist`
+- To diplay all fonts there is `showfigfonts` 
 
 ### ANSIShadow
 ```
